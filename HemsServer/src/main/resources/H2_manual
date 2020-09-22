@@ -1,0 +1,9 @@
+H2 Engine & Web Console (Ubuntu)
+ - Download : http://www.h2database.com/html/main.html
+ - usage : https://stackoverflow.com/questions/18575112/installing-and-starting-the-h2-database-on-ubuntu
+ 		cd h2/bin.
+ 		chmod +x h2.sh.
+ 		./h2.sh.
+ 		web 자동 실행 --> JDBC URL = jdbc:h2:file:~/data/managerServiceData 확인
+ 		동시접속이 가능할려면 위 URL = jdbc:h2:file:~/data/managerServiceData;AUTO_SERVER=true 로 고쳐서 할 것
+ 		로그인
