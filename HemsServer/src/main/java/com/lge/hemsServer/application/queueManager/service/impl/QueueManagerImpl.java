@@ -136,6 +136,9 @@ public class QueueManagerImpl implements QueueManager {
 		
 		try {
 			deleteMonitoringQueueSettingDto(new MonitoringQueueSettingDto(monitoringQueueName));
+			
+			monitoringQueueName = null;
+			
 			return true;
 		} catch (Exception e) {
 			logger.error("[QueueManager].deleteMonitoringQueueName : error = " + e);
